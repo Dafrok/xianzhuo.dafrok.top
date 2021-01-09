@@ -1,0 +1,82 @@
+html,
+body {
+  text-align: center;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+.STYLE5 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.title-img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: url(./resources/xianzhuobudong.gif);
+  background-size: cover;
+  display: inline-block;
+}
+
+.title-img::after {
+  visibility: hidden;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(./resources/xianzhuo222.gif);
+  background-size: cover;
+}
+
+.title-img:hover::after {
+  visibility: visible;
+}
+
+input {
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+article {
+  font-weight: bold;
+}
